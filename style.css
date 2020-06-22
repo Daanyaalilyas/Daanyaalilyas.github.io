@@ -54,7 +54,7 @@ nav{
     border-radius: 50%;
     transform: rotate(0deg);
     transition: 1s;
-    border-radius: 50%;
+
 
 }
 .feature img{
@@ -122,11 +122,35 @@ nav{
 .overlay{
     width: 0;
     height: 0;
-    border-top: 500px solid #fff;
+    border-top: 500px solid black;
     border-right: 500px solid transparent;
-    border-bottom: 500px solid #fff;
-    border-left: 500px solid #fff;
+    border-bottom: 500px solid black;
+    border-left: 500px solid black;
     position: absolute;
     left: 0;
     top: 0;
+}
+.one h1{
+    color: black;
+}
+.one p{
+    color: black;
+}
+.two h1{
+    color: black;
+}
+.two p{
+    color: black;
+}
+.three h1{
+    color: black;
+}
+.three p{
+    color: black;
+}
+.four h1{
+    color: black;
+}
+.four p{
+    color: black;
 }
