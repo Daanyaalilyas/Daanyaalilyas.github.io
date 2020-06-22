@@ -22,6 +22,8 @@
 		</nav>
         
         <div class="information">
+            <div class="overlay"></div>
+            <img src="images/Game.PNG" class="Game">
           <div id="circle">
             <div class="feature one">
                 <img src="images/featureimage.png">
@@ -30,11 +32,65 @@
                 <p>Apple to shoot , Zombies to Kill</p>
                 </div>
               </div>
-            <div class="feature two">
-              <img src="images/platform.png">
+              <div class="feature two">
+                <img src="images/platform.png">
+                <div>
+                <h1>Platform</h1>
+                <p>Windows , Coming soon on IOS,Android,MacOS</p>
+                </div>
               </div>
-          </div>
+              <div class="feature three">
+                <img src="images/platform.png">
+                <div>
+                <h1>Platform</h1>
+                <p>Windows , Coming soon on IOS,Android,MacOS</p>
+                </div>
+              </div>      
+              <div class="feature four">
+                <img src="images/featureimage.png">
+                <div>
+                <h1>Features</h1>
+                <p>Apple to shoot , Zombies to Kill</p>
+                </div>
+              </div>
+
+            </div>
+              
+              
+            
+              <div class="controls">
+                <img src="images/arrow.png" id="upbtn">
+                <h3>Features</h3>
+                <img src="images/arrow.png"id="downbtn">
+              </div>
         </div>
-	</div>
+            
+            
+        <script>
+            var circle = document.getElementById("circle");
+            var upbtn = document.getElementById("upbtn");
+            var downbtn = document.getElementById("downbtn");
+            
+            
+            var rotateValue = circle.style.transform;
+            var rotateSum;
+            
+            
+            upbtn.onclick = function()
+            {
+            rotateSum = rotateValue + "rotate(-90deg)";
+            circle.style.transform = rotateSum;
+            rotateValue = rotateSum;
+            }
+            
+            downbtn.onclick = function()
+            {
+            rotateSum = rotateValue + "rotate(90deg)";
+            circle.style.transform = rotateSum;
+            rotateValue = rotateSum;
+            }
+        
+        </script>
+
 </body>
 </html>
