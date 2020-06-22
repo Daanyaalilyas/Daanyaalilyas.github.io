@@ -54,3 +54,17 @@ nav{
     border-radius: 50%;
     background: #CCC;
 }
+.feature img{
+    width: 70px;
+}
+.feature{
+    position: absolute;
+}
+.one{
+    top: 450px;
+    right: 50px;
+}
+.two{
+    top: 150px;
+    left: 250px;
+}
