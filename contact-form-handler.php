@@ -15,9 +15,9 @@
 
     $to = "rajadaanyaal@gmail.com";
 
-    $headers = "Form: $email_from \r\n".
+    $headers = "Form: $email_from \r\n".;
     
-    $headers = "Reply-To: $visitor_emailb \r\n";
+    $headers = "Reply-To: $visitor_emailb \r\n".;
 
     mail($to,email_subject,$email_body,$headers);
 
