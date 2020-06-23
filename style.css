@@ -101,7 +101,7 @@ nav{
 }
 .controls{
     position: absolute;
-    right: -55%;
+    right: -50%;
     top: 50%;
     transform: translateY(-50%);
     text-align: center;
